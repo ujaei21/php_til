@@ -14,4 +14,12 @@
 //php.ini에 설정된 include_path에서 파일을 찾는다.
 // include_path에도 파일이 없다면 현재 디렉토리에서 찾는다. 
 // 또 없으면? 정지!
+
+//require("testData.php");
+
+include("testData.php");
+
+print "당신의 ID는 $id 입니다!<br/>";
+print "당신의 이름은 $name 입니다!<br/>";
+print "당신의 주소는 $address 입니다.<br/>";
 ?>
